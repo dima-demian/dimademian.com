@@ -144,7 +144,17 @@ p {
     overflow: hidden;
 }
 
-.mobile-experience img {
-    max-width: 1173px;
+.image-wrapper {
     margin: 0 auto;
+    width: 1200px;
+    height: 747px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.image-wrapper img {
+    width: 1187px;
+    height: auto;
 }

@@ -67,12 +67,19 @@
 		gap: calc(64vw / 1248 * 100);
 	}
 
-	.mobile-experience img {
-		width: calc(1173vw / 1248 * 100 - 48px);
-	}
-
 	.max-1200 {
 		max-width: none;
+	}
+
+	.image-wrapper {
+		margin: 0 auto;
+		width: calc(1166vw / 1248 * 100 - 48px);
+		height: calc(747vw / 1248 * 100);
+	}
+	
+	.image-wrapper img {
+		width: calc(1187vw / 1248 * 100 - 48px);
+		height: auto;
 	}
 }
 
