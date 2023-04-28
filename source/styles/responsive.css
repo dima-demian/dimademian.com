@@ -267,10 +267,6 @@
 	.portfolio h1 a {
 		font-size: 9.2vw;
 	}
-
-	footer {
-		margin-top: 32px;
-	}
 }
 
 
@@ -294,9 +290,6 @@
 		gap: 40px;
 	}
 
-	footer {
-		margin-top: 24px;
-	}
 
 	footer ul {
 		column-gap: 20px;
