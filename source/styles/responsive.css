@@ -159,6 +159,11 @@
 		max-width: none;
 	}
 
+	.h-logo {
+		width: calc(76vw / 680 * 100);
+		margin-bottom: 1.76vw;
+	}
+
 }
 
 @media (max-width: 550px) {	

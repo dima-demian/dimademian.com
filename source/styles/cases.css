@@ -15,6 +15,13 @@
     background: linear-gradient(180deg, #0D1931 0%, #164A8D 100%);
 }
 
+.h-logo {
+    width: 76px;
+    height: auto;
+    opacity: 0.4;
+    margin: 0 auto 12px;
+
+}
 
 p {
     max-width: 880px;
