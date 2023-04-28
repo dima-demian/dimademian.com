@@ -88,6 +88,11 @@ h3 {
 	line-height: 120%;
 }
 
+.black-body {
+	font: normal 500 18px/177% 'Inter', sans-serif;
+	letter-spacing: 0;
+}
+
 .topper, .portfolio, footer {
 	padding: var(--keyGap);
 	margin: 0 auto;
@@ -97,7 +102,7 @@ h3 {
 body {
 	background-color: #14171A;
 	color: var(--textKeyColor);
-	font: normal 400 18px/1.778em 'Inter', sans-serif;
+	font: normal 400 18px/177% 'Inter', sans-serif;
 	letter-spacing: 0.02em;
 	margin: 0;
 }

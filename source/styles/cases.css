@@ -15,16 +15,33 @@
     background: linear-gradient(180deg, #0D1931 0%, #164A8D 100%);
 }
 
+.bg-yellow-gradient {
+    background: linear-gradient(180deg, #FFC812 0%, #E67009 100%);
+}
+
 .h-logo {
     width: 76px;
     height: auto;
     opacity: 0.4;
-    margin: 0 auto 12px;
+    margin-bottom: 12px;
 
+}
+
+.turisto-logo {
+    width: 48px;
+    height: auto;
 }
 
 p {
     max-width: 880px;
+}
+
+.black-color {
+    color: #111;
+}
+
+.white-color {
+    color: #fff;
 }
 
 .case {
@@ -34,7 +51,6 @@ p {
     grid-template-columns: 1fr;
     row-gap: 88px;
     padding: 104px 24px;
-    color: #fff;
 }
 
 .max-1200 {
@@ -49,7 +65,6 @@ p {
     font-size: 88px;
     font-weight: 800;
     line-height: 100%;
-    color: #fff;
     margin-bottom: 24px;
 }
 
