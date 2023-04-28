@@ -58,8 +58,6 @@ p {
     font-weight: 700;
     font-size: 72px;
     line-height: 100%;
-    margin-bottom: 8px;
-
 }
 
 .case h3 {
@@ -73,7 +71,7 @@ p {
     text-align: center;
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
+    row-gap: 32px;
     margin: auto;
 }
 
