@@ -1,0 +1,143 @@
+/* Gradients  */
+.bg-blue-gradient {
+    background: linear-gradient(180deg, #1986CF 0%, #15468F 100%);
+}
+
+.chart-block {
+    background: linear-gradient(180deg, #150E24 10%, #092356 98%);
+}
+
+.medication-block {
+    background: linear-gradient(180deg, #18824D 0%, #105231 100%)
+}
+
+.mobile-experience {
+    background: linear-gradient(180deg, #0D1931 0%, #164A8D 100%);
+}
+
+
+p {
+    max-width: 880px;
+}
+
+.case {
+    max-width: var(--maxWidth);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 88px;
+    padding: 104px 24px;
+    color: #fff;
+}
+
+.max-1200 {
+	max-width: 1200px;
+}
+
+.bottom-padding-0 {
+    padding-bottom: 0;
+}
+
+.case h1 {
+    font-size: 88px;
+    font-weight: 800;
+    line-height: 100%;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.case h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    margin-bottom: 8px;
+
+}
+
+.case h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+
+.description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin: auto;
+}
+
+.charts-review {
+    gap: 104px;
+}
+
+.charts-review video {
+    width: 1136px;
+    border-radius: 12px;
+}
+
+.charts-review .description {
+    text-align: left;
+    margin: 0;
+}
+
+.bp-chart .description img {
+    max-width: 136px;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.bp-chart {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 48px;
+    align-items: last baseline;
+}
+
+.bp-chart .description p {
+    width: 408px;
+}
+
+.bp-chart img {
+    max-width: 1136px;
+    border-radius: 12px;
+}
+
+.asset {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 64px;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.phone {
+    width: 387px;
+    height: auto;
+    box-shadow: 0px 47px 38px -25px rgba(0, 0, 0, 0.6);
+    border-radius: 32px;
+}
+
+.browser {
+    width: 1200px;
+    height: auto;
+}
+
+
+.browser-frame {
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3),
+                0px 56px 80px rgba(0, 0, 0, 0.36);
+}
+
+.hide-overflow-content {
+    overflow: hidden;
+}
+
+.mobile-experience img {
+    max-width: 1173px;
+    margin: 0 auto;
+}

@@ -1,0 +1,295 @@
+@media (max-width: 1400px) {
+	.case {
+		padding: 88px 24px;
+	}
+}
+
+
+
+@media (max-width: 1248px) {
+	
+	.about-content img {
+		grid-column: 1 / 2;
+		grid-row: 3 / 3;
+		width: 320px;
+		margin-top: 24px;
+	}
+
+	.about-content {
+		row-gap: 24px;
+	}
+
+	.text-block {
+		max-width: 912px;
+	}
+
+	.case {
+		grid-template-columns: calc(100vw - 48px);
+	}
+
+	.charts-review video {
+		border-radius: 0.96vw;
+		width: calc(1136vw / 1200 * 100 - 48px);
+		height: auto;
+	}
+
+	.bp-chart img {
+		border-radius: 0.96vw;
+		width: calc(1136vw / 1200 * 100 - 48px);
+		height: auto;
+	}
+
+	.bp-chart .description p {
+		width: calc(408vw / 1248 * 100 - 48px);
+		min-width: 330px;
+	}
+
+	.browser-frame {
+		width: calc(1200vw / 1200 * 100 - 48px);
+		height: auto;
+		border-radius: 0.96vw 0.96vw 0 0;
+		box-shadow: 0px 1.603vw 2.403vw rgba(0, 0, 0, 0.3),
+					0px 4.49vw 6.41vw rgba(0, 0, 0, 0.36);
+	}
+
+	.browser {
+		width: calc(1200vw / 1200 * 100 - 48px);
+		height: auto;
+	}
+
+	.phone {
+		width: calc(387vw / 1200 * 100 - 48px);
+		border-radius: calc(32vw / 1248 * 100);
+		box-shadow: 0px 3.77vw 3.04vw -2vw rgba(0, 0, 0, 0.6);
+	}
+
+	.asset {
+		gap: calc(64vw / 1248 * 100);
+	}
+
+	.mobile-experience img {
+		width: calc(1173vw / 1248 * 100 - 48px);
+	}
+
+	.max-1200 {
+		max-width: none;
+	}
+}
+
+
+
+@media (max-width: 910px) {
+
+	.portfolio {
+		display: flex;
+		flex-direction: column;
+		row-gap: 80px;
+	}
+
+	.fullwidth img {
+		aspect-ratio: 1.5;
+		object-fit: cover;
+	}
+
+	.accomplishments ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.expertise ul {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+
+@media (max-width: 860px) {
+
+	.case {
+		padding: 80px 24px;
+		gap: 64px;
+	}
+
+	.bp-chart {
+		grid-template-columns: auto;
+		gap: 40px;
+	}
+
+	.bp-chart .description p {
+		width: auto;
+	}
+
+	.bp-chart .description img {
+		width: calc(88vw / 860 * 100);
+		height: auto;
+		margin-bottom: calc(8vw / 860 * 100);
+	}
+
+	.mobile-experience .case {
+		padding-bottom: 40px;
+	}
+}
+
+@media (max-width: 680px){
+
+	.case {
+		padding: calc(80vw / 680 * 100) 24px;
+		gap: calc(64vw / 680 * 100);
+	}
+
+	.case h1 {
+		font-size: calc(88vw / 680 * 100);
+	}
+
+	.case h2 {
+		font-size: calc(72vw / 680 * 100);
+	}
+
+	.case h3 {
+		font-size: calc(40vw / 680 * 100);
+	}
+
+	.description {
+		row-gap: calc(24vw / 680 * 100);
+	}
+
+	.bp-chart .description img {
+		width: calc(88vw / 680 * 100);
+		max-width: none;
+	}
+
+}
+
+@media (max-width: 550px) {	
+	.topper {
+		justify-content: space-between;
+		column-gap: 16px;
+	}
+
+	.about, .employers, .expertise, .education, .tools {
+		padding: 72px var(--keyGap);
+		row-gap: 56px;
+	}
+}
+
+
+
+@media (max-width: 520px) {
+
+	.about-content img {
+		max-width: 240px;
+		margin-top: 24px;
+		justify-self: center;
+	}
+
+	.about, .employers, .expertise, .education, .tools {
+		padding: 48px var(--keyGap);
+		row-gap: 48px;
+	}
+
+	.about-content h1 {
+		font-size: 64px;
+		margin-bottom: 36px;
+	}
+
+	h2 {
+		font-size: 48px;
+	}
+
+	h3 {
+		font-size: 32px;
+	}
+}
+
+
+
+@media (max-width: 460px) {
+
+	.dima-demian a {
+		font-size: 11.4vw;
+		font-weight: 400;
+	}
+
+	.menu a {
+		font-size: 18px;
+	}
+
+	.menu {
+		column-gap: 24px;
+	}
+
+	body {
+		font-size: 16px;
+
+	}
+
+	.position b {
+		font-size: 18px;
+
+	}
+
+	.about, .employers, .expertise, .education, .tools {
+		padding: 36px var(--keyGap);
+		row-gap: 36px;
+	}
+
+	.project p {
+		margin-bottom: 8px;
+	}
+}
+
+
+
+@media (max-width: 390px) {
+	
+	.portfolio {
+		gap: 48px var(--keyGap);
+		margin-top: var(--keyGap);
+	}
+
+	.portfolio h1 a {
+		font-size: 9.2vw;
+	}
+
+	footer {
+		margin-top: 32px;
+	}
+}
+
+
+
+@media (max-width: 360px) {
+	
+	.about-content h1 {
+		font-size: 17.78vw;
+		margin-bottom: 8px;
+	}
+
+	h2 {
+		font-size: 13.33vw;
+	}
+
+	h3 {
+		font-size: 8.88vw;
+	}
+	
+	.expertise ul {
+		gap: 40px;
+	}
+
+	footer {
+		margin-top: 24px;
+	}
+
+	footer ul {
+		column-gap: 20px;
+	}
+}
+
+
+/* Important */
+
+.bottom-padding-0 {
+	padding-bottom: 0;
+}

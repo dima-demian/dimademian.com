@@ -1,0 +1,50 @@
+.portfolio {
+	display: grid;
+	gap: 80px var(--keyGap);
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 56px;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+	line-height: 140%;
+	font-weight: 300;
+	color: var(--grayed);
+}
+
+.project h1 a {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 120%;
+	letter-spacing: 0.02em;
+}
+
+.project h1 a:hover {
+	background: linear-gradient(180deg, #87D7FF 10%, #408CFF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.project p {
+	margin-bottom: 16px;
+}
+
+.project img {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 1.5;
+		object-fit: cover;
+		border-radius: 12px;
+}
+
+.fullwidth {
+	grid-column: 1 / 3;
+}
+
+.fullwidth img {
+	aspect-ratio: 2;
+}
