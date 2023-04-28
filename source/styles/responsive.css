@@ -29,13 +29,13 @@
 
 	.charts-review video {
 		border-radius: 0.96vw;
-		width: calc(1136vw / 1200 * 100 - 48px);
+		width: calc(1136vw / 1248 * 100 - 48px);
 		height: auto;
 	}
 
 	.bp-chart img {
 		border-radius: 0.96vw;
-		width: calc(1136vw / 1200 * 100 - 48px);
+		width: calc(1136vw / 1248 * 100 - 48px);
 		height: auto;
 	}
 
@@ -45,7 +45,7 @@
 	}
 
 	.browser-frame {
-		width: calc(1200vw / 1200 * 100 - 48px);
+		width: calc(1200vw / 1248 * 100 - 48px);
 		height: auto;
 		border-radius: 0.96vw 0.96vw 0 0;
 		box-shadow: 0px 1.603vw 2.403vw rgba(0, 0, 0, 0.3),
@@ -53,12 +53,12 @@
 	}
 
 	.browser {
-		width: calc(1200vw / 1200 * 100 - 48px);
+		width: calc(1200vw / 1248 * 100 - 48px);
 		height: auto;
 	}
 
 	.phone {
-		width: calc(387vw / 1200 * 100 - 48px);
+		width: calc(387vw / 1248 * 100);
 		border-radius: calc(32vw / 1248 * 100);
 		box-shadow: 0px 3.77vw 3.04vw -2vw rgba(0, 0, 0, 0.6);
 	}
