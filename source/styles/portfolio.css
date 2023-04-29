@@ -72,6 +72,10 @@ h1.locked img {
 	height: auto;
 }
 
+.ennifoods {
+	background-color: #599729;
+}
+
 a.locked {
 	position: relative;
 	cursor:auto;
