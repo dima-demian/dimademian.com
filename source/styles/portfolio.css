@@ -48,3 +48,11 @@
 .fullwidth img {
 	aspect-ratio: 2;
 }
+
+.turisto {
+	background:
+	radial-gradient(62.63% 49.81% at 50% -20.52%, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0) 100%),
+	linear-gradient(180deg, #FACA1B 17.16%, #EB8305 100%);
+	width: 100%;
+	height: auto;
+}
