@@ -17,7 +17,9 @@
 
 .bg-yellow-gradient {
     
-    background: radial-gradient(47.46% 17.8% at 50% -8.72%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFCC26 0%, #F5930A 100%);
+    background:
+    radial-gradient(47.46% 17.8% at 50% -8.72%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(180deg, #FFCB0F 0%, #FF9305 96%);
 }
 
 .h-logo {
@@ -31,6 +33,12 @@
 .turisto-logo {
     width: 48px;
     height: auto;
+}
+
+.turisto-logo-type {
+    width: 300px;
+    height: auto;
+    margin-bottom: 24px;
 }
 
 p {
