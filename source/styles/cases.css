@@ -19,7 +19,7 @@
     
     background:
     radial-gradient(47.46% 17.8% at 50% -8.72%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
-    linear-gradient(180deg, #FFCB0F 0%, #FF9305 96%);
+    linear-gradient(180deg, #FFC20A 0%, #FF9D00 100%);
 }
 
 .h-logo {
@@ -31,26 +31,13 @@
 }
 
 .turisto-logo {
-    width: 41px;
-    height: auto;
-}
-
-.turisto-logo-type {
-    width: 300px;
+    width: 390px;
     height: auto;
     margin-bottom: 24px;
 }
 
 p {
     max-width: 880px;
-}
-
-.black-color {
-    color: #14171A;
-}
-
-.white-color {
-    color: #fff;
 }
 
 .case {
@@ -99,6 +86,23 @@ p {
     margin: auto;
 }
 
+.black-copy {
+    color: #14171A;
+}
+
+.white-copy {
+    color: #fff;
+}
+
+.black-copy h2 {
+    font-weight: 800;
+}
+
+.black-copy p {
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
 .charts-review {
     gap: 104px;
 }
@@ -114,7 +118,7 @@ p {
 }
 
 .bp-chart .description img {
-    max-width: 136px;
+    width: 136px;
     height: auto;
     margin-bottom: 24px;
 }

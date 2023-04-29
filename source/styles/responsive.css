@@ -1,5 +1,6 @@
 :root {
-	--ResMult: calc((100vw - 48px) / 1200);
+	--Res1200: calc((100vw - 48px) / 1200);
+	--Res680: calc((100vw - 48px) / 680);
 }
 
 @media (max-width: 1400px) {
@@ -7,7 +8,6 @@
 		padding: 88px 24px;
 	}
 }
-
 
 
 @media (max-width: 1248px) {
@@ -33,23 +33,23 @@
 
 	.charts-review video {
 		border-radius: .96vw;
-		width: calc(var(--ResMult) * 1136);
+		width: calc(var(--Res1200) * 1136);
 		height: auto;
 	}
 
 	.bp-chart img {
 		border-radius: .96vw;
-		width: calc(var(--ResMult) * 1136);
+		width: calc(var(--Res1200) * 1136);
 		height: auto;
 	}
 
 	.bp-chart .description p {
-		width: calc(var(--ResMult) * 408);
+		width: calc(var(--Res1200) * 408);
 		min-width: 330px;
 	}
 
 	.browser-frame {
-		width: calc(var(--ResMult) * 1200);
+		width: calc(var(--Res1200) * 1200);
 		height: auto;
 		border-radius: 0.96vw 0.96vw 0 0;
 		box-shadow: 0px 1.603vw 2.403vw rgba(0, 0, 0, 0.3),
@@ -57,18 +57,18 @@
 	}
 
 	.browser {
-		width: calc(var(--ResMult) * 1200);
+		width: calc(var(--Res1200) * 1200);
 		height: auto;
 	}
 
 	.phone {
-		width: calc(var(--ResMult) * 387);
-		border-radius: calc(var(--ResMult) * 32);
+		width: calc(var(--Res1200) * 387);
+		border-radius: calc(var(--Res1200) * 32);
 		box-shadow: 0px 3.77vw 3.04vw -2vw rgba(0, 0, 0, 0.6);
 	}
 
 	.asset {
-		gap: calc(var(--ResMult) * 64);
+		gap: calc(var(--Res1200) * 64);
 	}
 
 	.max-1200 {
@@ -77,12 +77,12 @@
 
 	.image-wrapper {
 		margin: 0 auto;
-		width: calc(var(--ResMult) * 1166);
-		height: calc(var(--ResMult) * 747);
+		width: calc(var(--Res1200) * 1166);
+		height: calc(var(--Res1200) * 747);
 	}
 	
 	.image-wrapper img {
-		width: calc(var(--ResMult) * 1187);
+		width: calc(var(--Res1200) * 1187);
 		height: auto;
 	}
 }
@@ -132,46 +132,45 @@
 	}
 
 	.bp-chart .description img {
-		width: calc(88vw / 860 * 100);
+		width: calc(136 / 860 * 100vw); 
 		height: auto;
-		margin-bottom: calc(8vw / 860 * 100);
+		margin-bottom: calc(8 / 860 * 100vw);
 	}
 
 	.mobile-experience .case {
 		padding-bottom: 40px;
+	}
+
+	.turisto-logo {
+		width: calc(390 / 860 * 100vw);
 	}
 }
 
 @media (max-width: 680px){
 
 	.case {
-		padding: calc(80vw / 680 * 100) 24px;
-		gap: calc(64vw / 680 * 100);
+		padding: calc(80 / 680 * 100vw) 24px;
+		gap: calc(64 / 680 * 100vw);
 	}
 
 	.case h1 {
-		font-size: calc(88vw / 680 * 100);
+		font-size: calc(88 / 680 * 100vw);
 	}
 
 	.case h2 {
-		font-size: calc(72vw / 680 * 100);
+		font-size: calc(72 / 680 * 100vw);
 	}
 
 	.case h3 {
-		font-size: calc(40vw / 680 * 100);
+		font-size: calc(40 / 680 * 100vw);
 	}
 
 	.description {
-		row-gap: calc(32vw / 680 * 100);
-	}
-
-	.bp-chart .description img {
-		width: calc(88vw / 680 * 100);
-		max-width: none;
+		row-gap: calc(32 / 680 * 100vw);
 	}
 
 	.h-logo {
-		width: calc(76vw / 680 * 100);
+		width: calc(76 / 680 * 100vw);
 		margin-bottom: 1.76vw;
 	}
 
@@ -194,7 +193,7 @@
 @media (max-width: 520px) {
 
 	.about-content img {
-		max-width: 240px;
+		width: 240px;
 		margin-top: 24px;
 		justify-self: center;
 	}
@@ -217,7 +216,6 @@
 		font-size: 32px;
 	}
 }
-
 
 
 @media (max-width: 460px) {
