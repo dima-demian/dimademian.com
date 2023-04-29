@@ -16,7 +16,8 @@
 }
 
 .bg-yellow-gradient {
-    background: linear-gradient(180deg, #FFCC26 0%, #E67A0E 100%);
+    
+    background: radial-gradient(47.46% 17.8% at 50% -8.72%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFCC26 0%, #F5930A 100%);
 }
 
 .h-logo {
