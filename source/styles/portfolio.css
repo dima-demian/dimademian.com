@@ -29,6 +29,21 @@
 	text-fill-color: transparent;
 }
 
+h1.locked a {
+	color: var(--grayed);
+}
+
+h1.locked a:hover  {
+	-webkit-text-fill-color: var(--grayed);
+	cursor:wait;
+}
+
+h1.locked img {
+	width: 26px;
+	height: 26px;
+	border-radius: 0;
+}
+
 .project p {
 	margin-bottom: 16px;
 }
@@ -55,4 +70,34 @@
 	linear-gradient(180deg, #FACA1B 17.16%, #EB8305 100%);
 	width: 100%;
 	height: auto;
+}
+
+a.locked {
+	position: relative;
+	cursor:wait;
+}
+
+.coming-soon {
+	background-color: #000;
+	color:#889299;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 100%;
+	letter-spacing: 0.02em;
+	padding: 6px 12px 6px 8px;
+	display: inline-flex;
+	gap: 8px;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	align-items: center;
+	border-radius: 6px;
+}
+
+.coming-soon img {
+	width: 24px;
+	height: 24px;
+	border-radius: 0;
 }

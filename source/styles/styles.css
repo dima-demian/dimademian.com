@@ -41,10 +41,6 @@ img {
 	border-width: 0;
 }
 
-.grayed {
-	color: var(--grayed);
-}	
-
 .text-centered {
 	text-align: center;
 }	
@@ -60,6 +56,10 @@ img {
 	background-clip: text;
 	text-fill-color: transparent;
 }
+
+.grayed {
+	color: var(--grayed);
+}	
 
 .blue-gradient {
 	background: linear-gradient(180deg, #87D7FF 10%, #408CFF 100%);
