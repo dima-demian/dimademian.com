@@ -35,7 +35,7 @@ h1.locked a {
 
 h1.locked a:hover  {
 	-webkit-text-fill-color: var(--grayed);
-	cursor:wait;
+	cursor:auto;
 }
 
 h1.locked img {
@@ -74,7 +74,7 @@ h1.locked img {
 
 a.locked {
 	position: relative;
-	cursor:wait;
+	cursor:auto;
 }
 
 .coming-soon {
