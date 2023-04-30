@@ -94,8 +94,8 @@ a.locked {
 	display: inline-flex;
 	gap: 8px;
 	position: absolute;
-	top: 12px;
-	right: 12px;
+	top: 8px;
+	right: 8px;
 	align-items: center;
 	border-radius: 6px;
 }
