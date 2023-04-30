@@ -19,6 +19,7 @@
 	font-size: 36px;
 	line-height: 120%;
 	letter-spacing: 0.02em;
+	font-variation-settings: 'wght' 460;
 }
 
 .project h1 a:hover {
