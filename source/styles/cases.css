@@ -18,8 +18,7 @@
 .bg-yellow-gradient {
     
     background:
-    radial-gradient(47.46% 17.8% at 50% -8.72%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
-    linear-gradient(180deg, #FFC20A 0%, #FF9D00 100%);
+    radial-gradient(47.46% 17.8% at 50% -8.72%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFBE1A;
 }
 
 .h-logo {
@@ -36,7 +35,7 @@
     margin-bottom: 24px;
 }
 
-p {
+p, .case h1, .case h2, .case h3 {
     max-width: 880px;
 }
 
@@ -96,11 +95,13 @@ p {
 
 .black-copy h2 {
     font-weight: 800;
+    font-variation-settings: 'wght' 780;
 }
 
 .black-copy p {
     font-weight: 500;
-    letter-spacing: -0.01em;
+    font-variation-settings: 'wght' 440;
+    letter-spacing: 0;
 }
 
 .charts-review {
