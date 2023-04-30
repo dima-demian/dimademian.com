@@ -125,6 +125,7 @@
 	.bp-chart {
 		grid-template-columns: auto;
 		gap: 40px;
+		align-items: normal;
 	}
 
 	.bp-chart .description p {
