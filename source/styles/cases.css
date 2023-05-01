@@ -79,8 +79,8 @@ p, .case h1, .case h2, .case h3 {
 
 .description {
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto;
     row-gap: 32px;
     margin: auto;
 }
