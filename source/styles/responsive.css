@@ -36,6 +36,10 @@
 		height: auto;
 	}
 
+	.bp-chart {
+		height: calc(100vw / 1248 * 587);
+	}
+	
 	.bp-chart img {
 		border-radius: .96vw;
 		width: calc(var(--Res1200) * 1136);
