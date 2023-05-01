@@ -31,8 +31,7 @@
 		grid-template-columns: calc(100vw - 48px);
 	}
 
-	.charts-review video {
-		border-radius: .96vw;
+	.charts-review img {
 		width: calc(var(--Res1200) * 1136);
 		height: auto;
 	}

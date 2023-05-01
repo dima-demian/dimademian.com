@@ -113,6 +113,11 @@ p, .case h1, .case h2, .case h3 {
     border-radius: 12px;
 }
 
+.charts-review img {
+    width: 1136px;
+    height: auto;
+}
+
 .charts-review .description {
     text-align: left;
     margin: 0;
