@@ -129,7 +129,6 @@ p, .case h1, .case h2, .case h3 {
     grid-template-columns: auto auto;
     gap: 48px;
     align-items: last baseline;
-    height: 587px;
 }
 
 .bp-chart .description p {
