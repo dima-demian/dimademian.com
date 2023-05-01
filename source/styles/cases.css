@@ -108,12 +108,7 @@ p, .case h1, .case h2, .case h3 {
     gap: 104px;
 }
 
-.charts-review video {
-    width: 1136px;
-    border-radius: 12px;
-}
-
-.charts-review img {
+.charts-review img, .bp-chart img {
     width: 1136px;
     height: auto;
 }
@@ -138,11 +133,6 @@ p, .case h1, .case h2, .case h3 {
 
 .bp-chart .description p {
     width: 408px;
-}
-
-.bp-chart img {
-    max-width: 1136px;
-    border-radius: 12px;
 }
 
 .asset {
