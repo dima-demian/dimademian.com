@@ -108,4 +108,4 @@ a.locked {
 }
 
 .scale { transition: all .1s ease-in-out; }
-.scale:hover { transform: scale(1.02); }
+.scale:hover { transform: scale(1.012); }
