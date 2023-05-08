@@ -3,6 +3,13 @@
 	--Res680: calc((100vw - 48px) / 680);
 }
 
+@media (max-width: 1590px) {
+	.black-block video {
+		width: calc(100vw - 48px);
+		height: auto;
+	}
+}
+
 @media (max-width: 1400px) {
 	.case {
 		padding: 88px 24px;

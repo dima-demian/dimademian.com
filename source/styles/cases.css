@@ -15,6 +15,10 @@
     background: linear-gradient(180deg, #0D1931 0%, #164A8D 100%);
 }
 
+.black-block {
+    background-color: #000;
+}
+
 .bg-yellow-gradient {
     
     background:
@@ -176,8 +180,19 @@ p, .case h1, .case h2, .case h3 {
     align-items: start;
 }
 
-
 .image-wrapper img {
     width: 1187px;
     height: auto;
+}
+
+.black-block video {
+    margin: auto;
+}
+
+.english-prime h1 {
+    color: #DF2A2C;
+}
+
+.english-prime h1 span {
+    color: #176EE1;
 }
