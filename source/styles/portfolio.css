@@ -106,3 +106,6 @@ a.locked {
 	height: 24px;
 	border-radius: 0;
 }
+
+.scale { transition: all .1s ease-in-out; }
+.scale:hover { transform: scale(1.02); }
