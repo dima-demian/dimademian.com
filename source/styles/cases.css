@@ -1,4 +1,5 @@
-/* Gradients  */
+/* Section backgrounds  */
+
 .bg-blue-gradient {
     background: linear-gradient(180deg, #1986CF 0%, #15468F 100%);
 }
@@ -15,8 +16,8 @@
     background: linear-gradient(180deg, #0D1931 0%, #164A8D 100%);
 }
 
-.black-block {
-    background-color: #000;
+.eng-prime-block {
+    background-color: #141F2E;
 }
 
 .bg-yellow-gradient {
@@ -25,19 +26,7 @@
     radial-gradient(70.82% 13.8% at 50% -7.95%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFBE1A;
 }
 
-.h-logo {
-    width: 76px;
-    height: auto;
-    opacity: 0.4;
-    margin-bottom: 12px;
-
-}
-
-.turisto-logo {
-    width: 390px;
-    height: auto;
-    margin-bottom: 24px;
-}
+/* Main case settings */
 
 p, .case h1, .case h2, .case h3 {
     max-width: 880px;
@@ -80,7 +69,6 @@ p, .case h1, .case h2, .case h3 {
     line-height: 120%;
 }
 
-
 .description {
     text-align: center;
     display: flex;
@@ -88,6 +76,14 @@ p, .case h1, .case h2, .case h3 {
     row-gap: 32px;
     margin: auto;
 }
+
+.w-100 {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Typography coloring */
 
 .black-copy {
     color: #14171A;
@@ -106,6 +102,16 @@ p, .case h1, .case h2, .case h3 {
     font-weight: 500;
     font-variation-settings: 'wght' 440;
     letter-spacing: 0;
+}
+
+
+/* Harmonize snippets */
+
+.h-logo {
+    width: 76px;
+    height: auto;
+    opacity: 0.4;
+    margin-bottom: 12px;
 }
 
 .charts-review {
@@ -160,7 +166,6 @@ p, .case h1, .case h2, .case h3 {
     height: auto;
 }
 
-
 .browser-frame {
     border-radius: 12px 12px 0 0;
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3),
@@ -185,14 +190,27 @@ p, .case h1, .case h2, .case h3 {
     height: auto;
 }
 
-.black-block video {
-    margin: auto;
+
+/* Turisto snippets */
+
+.turisto-logo {
+    width: 390px;
+    height: auto;
+    margin-bottom: 24px;
 }
 
+
+/* English Prime snippets */
+
 .english-prime h1 {
-    color: #DF2A2C;
+    color: #F32A2C;
 }
 
 .english-prime h1 span {
     color: #176EE1;
+}
+
+.eng-prime-block video {
+    width: 1542px;
+    height: auto;
 }
