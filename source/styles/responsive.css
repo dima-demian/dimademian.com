@@ -7,6 +7,7 @@
 	.eng-prime-block video {
 		width: calc(100vw - 48px);
 		height: auto;
+		border-radius: calc(100vw / 1590 * 12);
 	}
 }
 

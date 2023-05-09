@@ -213,4 +213,5 @@ p, .case h1, .case h2, .case h3 {
 .eng-prime-block video {
     width: 1542px;
     height: auto;
+    border-radius: 12px;
 }
