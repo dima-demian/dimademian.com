@@ -53,10 +53,6 @@ img {
     margin: 0 auto;
 }
 
-.flex-centered {
-	align-items: center;
-}
-
 .silver {
 	background: linear-gradient(180deg, #F7FCFF 22%, #8EA1AD 100%);
 	-webkit-background-clip: text;
