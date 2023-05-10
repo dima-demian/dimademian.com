@@ -74,7 +74,7 @@ h1.locked img {
 }
 
 .harmonize {
-	background-color: #269FF0;
+	background: radial-gradient(77.8% 79.85% at 50% 50%, #32AAFA 7.48%, #1C66D5 100%);
 	width: 100%;
 	height: auto;
 }
