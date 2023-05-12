@@ -110,8 +110,6 @@ p, .case h1, .case h2, .case h3 {
 .h-logo {
     width: 76px;
     height: auto;
-    opacity: 0.4;
-    margin-bottom: 12px;
 }
 
 .charts-review {
