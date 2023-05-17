@@ -16,6 +16,17 @@
     background: linear-gradient(180deg, #0D1931 0%, #164A8D 100%);
 }
 
+.many-screens {
+    background: #050505;
+}
+
+.many-screens img {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    border-radius: 16px;
+}
+
 .eng-prime-block {
     background-color: #1E2E40;
 }

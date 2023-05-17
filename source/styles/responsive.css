@@ -11,6 +11,14 @@
 	}
 }
 
+
+@media (max-width: 1448px) {
+	.many-screens img {
+		border-radius: calc(16 / 1448 * 100vw);
+	}
+}
+
+
 @media (max-width: 1400px) {
 	.case {
 		padding: 88px 24px;
