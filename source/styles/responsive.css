@@ -145,7 +145,7 @@
 	}
 
 	.bp-chart .description img {
-		width: calc(136 / 860 * 100vw); 
+		width: calc(112 / 860 * 100vw); 
 		height: auto;
 		margin-bottom: calc(8 / 860 * 100vw);
 	}
