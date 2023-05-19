@@ -89,7 +89,7 @@ h1.locked img {
 
 a.locked {
 	position: relative;
-	cursor:auto;
+	cursor: auto;
 }
 
 .coming-soon {
@@ -103,7 +103,7 @@ a.locked {
 	letter-spacing: 0.02em;
 	padding: 6px 12px 6px 8px;
 	display: inline-flex;
-	gap: 8px;
+	gap: 5px;
 	position: absolute;
 	top: 8px;
 	right: 8px;
