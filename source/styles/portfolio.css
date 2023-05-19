@@ -84,7 +84,8 @@ h1.locked img {
 }
 
 .agnicom {
-	background-color: #0A2028;
+	/* background-color: #0A2028; */
+	background: linear-gradient(242.66deg, #00314A 8%, #091C23 76%);
 }
 
 a.locked {
