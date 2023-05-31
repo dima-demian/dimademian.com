@@ -97,7 +97,7 @@ h3 {
 	letter-spacing: 0;
 }
 
-.topper, .portfolio, footer {
+header, .portfolio, footer {
 	padding: var(--keyGap);
 	margin: 0 auto;
 	max-width: var(--maxWidth);
@@ -112,7 +112,7 @@ body {
 	padding: 0;
 }
 
-.topper {
+header {
 	display: flex;
 	gap: 36px;
 	flex-wrap: wrap;

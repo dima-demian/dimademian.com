@@ -198,7 +198,7 @@
 }
 
 @media (max-width: 550px) {	
-	.topper {
+	header {
 		justify-content: space-between;
 		column-gap: 16px;
 	}
