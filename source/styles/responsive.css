@@ -246,11 +246,11 @@
 		font-weight: 400;
 	}
 
-	.menu a {
+	nav a {
 		font-size: 18px;
 	}
 
-	.menu {
+	nav {
 		column-gap: 24px;
 	}
 

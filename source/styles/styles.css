@@ -136,12 +136,12 @@ header {
 
 /* Menu */
 
-.menu {
+nav {
 	display: flex;
 	column-gap: 36px;
 }
 
-.menu a {
+nav a {
 	font-size: 20px;
 	line-height: 120%;
 	font-weight: 300;
@@ -151,7 +151,7 @@ a:hover {
 	color: var(--hover);
 }
 
-.menu a.selected {
+nav a.selected {
 	color: var(--selected);
 }
 
