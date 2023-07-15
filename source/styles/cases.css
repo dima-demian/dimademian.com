@@ -16,8 +16,12 @@
     background: linear-gradient(180deg, #0D1931 0%, #164A8D 100%);
 }
 
-.many-screens {
+.many-screens, .design-system {
     background: #050505;
+}
+
+.design-system {
+    line-height: 0;
 }
 
 .many-screens img {
