@@ -220,3 +220,7 @@ footer ul li, footer ul li a {
 .contacts-modal ul li a:hover svg {
 	fill: var(--hover);
 }
+
+.contacts-modal::backdrop {
+	background: rgba(0, 0, 0, 0.60);
+}
