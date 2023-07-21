@@ -181,3 +181,42 @@ footer ul li, footer ul li a {
 	line-height: 120%;
 	color: #464D52;
 }
+
+
+/* Contacts Modal */
+
+.contacts-modal {
+	background-color: #313538;
+	padding: 24px 32px;
+	border-radius: 12px;
+	border: 0;
+	box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12),
+				0px 16px 24px 2px rgba(0, 0, 0, 0.14),
+				0px 8px 10px -5px rgba(0, 0, 0, 0.20);
+
+}
+
+.contacts-modal ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+}
+
+.contacts-modal ul li a {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	align-self: stretch;
+	line-height: 100%;
+}
+
+.contacts-modal ul li a svg {
+	fill: var(--textKeyColor);
+	width: 20px;
+	height: 20px;
+}
+
+.contacts-modal ul li a:hover svg {
+	fill: var(--hover);
+}
