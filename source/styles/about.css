@@ -28,6 +28,7 @@ section {}
 	display: flex;
 	flex-direction: column;
 	row-gap: 32px;
+	text-wrap: balance;
 	grid-column: 1 / 2;
 	grid-row: 2 / 3 ;
 }
@@ -44,6 +45,7 @@ section {}
 .card, .accomplishments, .expertise ul li {
 	display: flex;
 	flex-direction: column;
+	text-wrap: balance;
 }
 
 .company, .position {
