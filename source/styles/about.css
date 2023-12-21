@@ -73,7 +73,7 @@ section {}
 .company .name-and-location, .position {
 	display: flex;
 	align-items: baseline;
-	column-gap: 16px;
+	column-gap: 12px;
 	flex-wrap: wrap;
 }
 
