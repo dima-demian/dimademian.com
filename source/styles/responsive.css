@@ -195,6 +195,11 @@
 		margin-bottom: 1.76vw;
 	}
 
+	.card {
+		padding: 32px;
+		border-radius: 24px;
+	}
+
 }
 
 @media (max-width: 550px) {	
@@ -206,6 +211,11 @@
 	.about, .employers, .expertise, .education, .tools {
 		padding: 72px var(--keyGap);
 		row-gap: 56px;
+	}
+
+	.card {
+		padding: 24px;
+		border-radius: 24px;
 	}
 }
 
