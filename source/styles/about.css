@@ -57,7 +57,7 @@ section {}
 	border-radius: 32px;
 	padding: 48px;
 	background-color: #171B1F;
-	gap: 48px;
+	gap: 56px;
 }
 
 .card h4 {
@@ -73,7 +73,7 @@ section {}
 .company .name-and-location, .position {
 	display: flex;
 	align-items: baseline;
-	column-gap: 12px;
+	gap: 12px;
 	flex-wrap: wrap;
 }
 
