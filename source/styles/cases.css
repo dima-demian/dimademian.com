@@ -110,7 +110,6 @@ p, .case h1, .case h2, .case h3 {
 
 .black-copy h2 {
     font-weight: 800;
-    font-variation-settings: 'wght' 780;
 }
 
 .black-copy p {
