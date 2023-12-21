@@ -48,6 +48,12 @@ section {}
 	text-wrap: balance;
 }
 
+.card {
+	border-radius: 24px;
+	padding: 48px;
+	background-color: #171B1F;
+}
+
 .company, .position {
 	display: flex;
 	align-items: baseline;
