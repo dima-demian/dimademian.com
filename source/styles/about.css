@@ -64,11 +64,21 @@ section {}
 	font-weight: 500;
 }
 
-.company, .position {
+.company {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.company .name-and-location, .position {
 	display: flex;
 	align-items: baseline;
-	column-gap: 12px;
+	column-gap: 16px;
 	flex-wrap: wrap;
+}
+
+.company .description {
+	max-width: 80ch;
 }
 
 .position b {
