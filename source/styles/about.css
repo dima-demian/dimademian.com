@@ -45,7 +45,6 @@ section {}
 .card, .accomplishments, .responsibility, .expertise ul li {
 	display: flex;
 	flex-direction: column;
-	text-wrap: balance;
 }
 
 .card {
