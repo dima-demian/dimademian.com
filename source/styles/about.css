@@ -29,8 +29,6 @@ section {}
 	flex-direction: column;
 	row-gap: 32px;
 	text-wrap: balance;
-	grid-column: 1 / 2;
-	grid-row: 2 / 3 ;
 }
 
 .about-content img {
