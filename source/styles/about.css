@@ -42,6 +42,12 @@ section {}
 	grid-row: 1 / 3;
 }
 
+.org-history {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+}
+
 .card, .accomplishments, .responsibility, .expertise ul li {
 	display: flex;
 	flex-direction: column;

@@ -200,6 +200,10 @@
 		border-radius: 24px;
 	}
 
+	.org-history {
+		gap: 32px;
+	}
+
 }
 
 @media (max-width: 550px) {	
@@ -217,6 +221,11 @@
 		padding: 24px;
 		border-radius: 24px;
 	}
+
+	.org-history {
+		gap: 24px;
+	}
+
 }
 
 
