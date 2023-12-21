@@ -108,11 +108,19 @@ section {}
 }
 
 .accomplishments ul {
-	list-style-image: url('../images/about/checkmark.svg');
+	/* list-style-image: url('../images/about/plus-checkmark.svg'); */
+	list-style-type: '+ ';
 	display: grid;
 	grid-template-columns: auto auto;
 	gap: 36px 88px;
 	padding-left: 24px;
+}
+
+.accomplishments ul li::marker {
+	font-weight: 300;
+	font-size: 28px;
+	line-height: unset;
+	color: #596C80;
 }
 
 .expertise ul {
