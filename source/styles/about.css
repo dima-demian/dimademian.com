@@ -114,7 +114,7 @@ section {}
 }
 
 .accomplishments ul li::marker {
-	color: #596C80;
+	color: var(--grayed);
 }
 
 .expertise ul {
