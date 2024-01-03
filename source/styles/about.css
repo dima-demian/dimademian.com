@@ -146,3 +146,31 @@ section {}
 	background: linear-gradient(180deg, #CCDAE3 0%, #91A1AD 100%);
 	border-radius: 20px;
 }
+
+.cv-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	font: inherit;
+	color: #139FE5;
+	padding: 8px 16px;
+	border-radius: 12px;
+	border: 1px solid #139FE5;
+	width: fit-content;
+	transition: 0.2s;
+}
+
+.cv-button svg {
+	fill: #139FE5;
+	transition: 0.2s;
+}
+
+.cv-button:hover {
+	color: #fff;
+	background-color: #139FE5;
+}
+
+.cv-button:hover svg {
+	fill: #fff;
+}
