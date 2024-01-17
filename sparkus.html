@@ -65,10 +65,19 @@
             row-gap: 64px;
             justify-content: center;
         }
+
         section .image-set img {
             aspect-ratio: 1;
+            width: 100%;
             max-width: 456px;
         }
+        
+        @media (max-width: 790px) {
+            h1 {
+                font-size: calc(138 / (788 - 128) * (100vw - 128px));
+            }
+        }
+
     </style>
 </head>
 <body>
