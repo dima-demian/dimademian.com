@@ -41,6 +41,10 @@
     radial-gradient(70.82% 13.8% at 50% -7.95%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFBE1A;
 }
 
+.white-bg {
+    background-color: white;
+}
+
 /* Main case settings */
 
 p, .case h1, .case h2, .case h3 {
@@ -118,6 +122,9 @@ p, .case h1, .case h2, .case h3 {
     letter-spacing: 0;
 }
 
+.upper-case {
+    text-transform: uppercase;
+}
 
 /* Harmonize snippets */
 
