@@ -146,6 +146,13 @@ p, .case h1, .case h2, .case h3 {
     position: relative;
 }
 
+.story-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 88px;
+}
+
 .sparkus::after {
     content: "";
     position: absolute;
@@ -199,6 +206,11 @@ p, .case h1, .case h2, .case h3 {
     align-items: center;
 }
 
+.sparkus-wrapper {
+    display: grid;
+    gap: 160px;
+}
+
 .lighter_image {
     display: flex;
     align-items: center;
@@ -210,10 +222,45 @@ p, .case h1, .case h2, .case h3 {
     max-width: 240px;
 }
 
-.isometric {
+.egl3p3 {
     width: 100%;
-    max-width: 940px;
+    max-width: 888px;
     margin: 0 auto;
+}
+
+.schemes {
+    display: flex;
+    gap: 88px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.schema-item {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.schema-item img {
+    width: 100%;
+    max-width: 360px;
+}
+
+.modular-schema {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.gile, .gil, .beacon-light {
+    width: 100%;
+    max-width: 1008px;
+    margin: auto;
+}
+
+.beacon-light {
+    max-width: 800px;
 }
 
 /* Harmonize snippets */

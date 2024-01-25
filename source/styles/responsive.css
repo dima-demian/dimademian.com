@@ -3,6 +3,12 @@
 	--Res680: calc((100vw - 48px) / 680);
 }
 
+@media (max-width: 1648px) {
+	.sparkus {
+		background-size: 100% auto, auto 100%;
+	}
+}
+
 @media (max-width: 1590px) {
 	.eng-prime-block video {
 		width: calc(100vw - 48px);
@@ -132,8 +138,6 @@
 	}
 }
 
-
-
 @media (max-width: 860px) {
 
 	.case {
@@ -146,6 +150,10 @@
 		gap: 40px;
 		align-items: normal;
 		height: auto;
+	}
+
+	.sparkus h1 {
+		font-size: calc(164 / 860 * 100vw);
 	}
 
 	.bp-chart .description p {
