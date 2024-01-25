@@ -126,6 +126,12 @@
 	}
 }
 
+@media (max-width: 1024px) {
+	.black-copy p {
+		max-width: 56ch;
+	}
+}
+
 @media (max-width: 910px) {
 
 	.portfolio {
@@ -154,7 +160,15 @@
 	}
 
 	.story-block {
-		gap: 64px;
+		gap: 56px;
+	}
+
+	.sparkus h1 {
+		font-size: calc(164 / 910 * 100vw) !important;
+	}
+
+	.schemes {
+		margin-bottom: 64px;
 	}
 }
 
@@ -170,10 +184,6 @@
 		gap: 40px;
 		align-items: normal;
 		height: auto;
-	}
-
-	.sparkus h1 {
-		font-size: calc(164 / 860 * 100vw);
 	}
 
 	.bp-chart .description p {
@@ -196,6 +206,10 @@
 
 	.beacon-light {
 		width: 70%;
+	}
+
+	.schemes {
+		gap: 64px;
 	}
 
 }
@@ -238,12 +252,16 @@
 		gap: 32px;
 	}
 
-	.sparkus h1 {
-		font-size: calc(130 / 680 * 100vw);
-	}
-
 	.schema-item img {
 		max-width: calc(320 / 680 * 100vw);
+	}
+
+	.sparkus {
+		height: 480px;
+	}
+
+	.schema-item {
+		gap: 24px;
 	}
 }
 
@@ -265,10 +283,6 @@
 
 	.org-history {
 		gap: 24px;
-	}
-
-	.sparkus {
-		height: 480px;
 	}
 
 }
@@ -299,6 +313,10 @@
 
 	h3 {
 		font-size: 32px;
+	}
+
+	.story-block {
+		gap: 32px;
 	}
 }
 
@@ -335,6 +353,10 @@
 
 	.project p {
 		margin-bottom: 8px;
+	}
+
+	.sparkus {
+		height: 400px;
 	}
 }
 
