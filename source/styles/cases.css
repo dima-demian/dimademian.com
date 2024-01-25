@@ -260,7 +260,7 @@ p, .case h1, .case h2, .case h3 {
 }
 
 .beacon-light {
-    max-width: 800px;
+    max-width: 640px;
 }
 
 /* Harmonize snippets */
