@@ -214,6 +214,13 @@
 		gap: 32px;
 	}
 
+	.sparkus h1 {
+		font-size: calc(130 / 680 * 100vw);
+	}
+
+	.schema-item img {
+		max-width: calc(320 / 680 * 100vw);
+	}
 }
 
 @media (max-width: 550px) {	
@@ -234,6 +241,10 @@
 
 	.org-history {
 		gap: 24px;
+	}
+
+	.sparkus {
+		height: 480px;
 	}
 
 }
