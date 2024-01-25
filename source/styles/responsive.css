@@ -116,6 +116,14 @@
 	.modular-schema {
 		width: 85%;
 	}
+
+	.egl3p3 {
+		width: 80%;
+	}
+
+	.gile, .igl {
+		width: 80%;
+	}
 }
 
 @media (max-width: 910px) {
@@ -139,6 +147,14 @@
 	.expertise ul {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.sparkus-wrapper {
+		gap: 88px;
+	}
+
+	.story-block {
+		gap: 64px;
 	}
 }
 
@@ -176,6 +192,10 @@
 
 	.turisto-logo {
 		width: calc(390 / 860 * 100vw);
+	}
+
+	.beacon-light {
+		width: 70%;
 	}
 
 }
