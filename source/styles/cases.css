@@ -253,10 +253,14 @@ p, .case h1, .case h2, .case h3 {
     margin: auto;
 }
 
-.gile, .gil, .beacon-light {
+.gile, .igl, .beacon-light {
     width: 100%;
     max-width: 1008px;
     margin: auto;
+}
+
+.igl {
+    max-width: 900px;
 }
 
 .beacon-light {
