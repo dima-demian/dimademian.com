@@ -112,7 +112,11 @@
 	}
 }
 
-
+@media (max-width: 1036px) {
+	.modular-schema {
+		width: 85%;
+	}
+}
 
 @media (max-width: 910px) {
 
