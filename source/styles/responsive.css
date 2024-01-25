@@ -139,7 +139,7 @@
 }
 
 @media (max-width: 860px) {
-
+	
 	.case {
 		padding: 80px 24px;
 		gap: 64px;
@@ -173,7 +173,12 @@
 	.turisto-logo {
 		width: calc(390 / 860 * 100vw);
 	}
+
+	.story-block {
+		margin-bottom: 0;
+	}
 }
+
 
 @media (max-width: 680px){
 

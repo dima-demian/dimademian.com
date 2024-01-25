@@ -151,6 +151,7 @@ p, .case h1, .case h2, .case h3 {
     flex-direction: column;
     justify-content: center;
     gap: 88px;
+    margin-bottom: -110px;
 }
 
 .sparkus::after {
