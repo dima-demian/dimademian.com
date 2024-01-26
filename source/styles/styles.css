@@ -120,20 +120,6 @@ header div {
 	align-items: baseline;
 }
 
-.dima-demian a {
-	background: linear-gradient(180deg, #F7FCFF 20%, #8EA1AD 100%);;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	
-	font-weight: 300;
-	letter-spacing: 0.03em;
-	font-size: 56px;
-	line-height: 75%;
-	text-transform: uppercase;
-	margin-left: -3px;
-}
-
 #demian {
 	width: auto;
 	height: 36px;
