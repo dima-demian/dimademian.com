@@ -134,6 +134,17 @@ header div {
 	margin-left: -3px;
 }
 
+#demian {
+	width: auto;
+	height: 36px;
+	stroke: white;
+	transition: all .15s ease-in-out;
+}
+
+#demian:hover {
+	stroke: #1D9BF0;
+}
+
 
 /* Menu */
 
