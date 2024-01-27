@@ -28,6 +28,15 @@ h1, h2, h3, h4, h5, ul, li, p {
 	box-sizing: border-box;
 }
 
+.noleading {
+	line-height: 0;
+}
+
+img {
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
 
 /* Test mode */
 /* * {border: 0.5px solid rgba(255,0,0,0.7);} */
@@ -121,14 +130,18 @@ header div {
 }
 
 #demian {
-	width: auto;
 	height: 36px;
-	stroke: white;
+	width: auto;
+	fill:none;
+	stroke:#fff;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-width:5.8px;
 	transition: all .15s ease-in-out;
 }
 
 #demian:hover {
-	stroke: #EB0936;
+	stroke: #1f83f4;
 }
 
 
@@ -141,7 +154,7 @@ nav {
 
 nav a {
 	font-size: 20px;
-	line-height: 120%;
+	line-height: 100%;
 	font-weight: 300;
 }
 
