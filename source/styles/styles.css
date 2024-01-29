@@ -8,14 +8,14 @@
 	--keyGap: 24px;
 
 	/* Colours */
-	--linkColour: #CDD9E1;
-	--hover: #55AFEC;
-	--textKeyColor: #E4EBF0;
-	--grayed: #78868F;
-	--grim: #0C0E0F;
-	--caseBG: #1D2024;
-	--selected: #4F5B63;
-	--testFill: rgba(255,0,0,0.3);
+	--linkColour: hsl(204, 25%, 84%);
+	--hover: hsl(204, 80%, 63%);
+	--textKeyColor: hsl(205, 29%, 92%);
+	--grayed: hsl(204, 10%, 60%);
+	--grim: hsl(200, 11%, 5%);
+	--caseBG: hsl(214, 11%, 13%);
+	--selected: hsl(204, 11%, 35%);
+	--testFill: hsla(0, 100%, 50%, 0.3);
 }
 
 /* Resetting */
@@ -102,7 +102,7 @@ h3 {
 }
 
 .black-body {
-	font: normal 500 18px/177% 'Inter', sans-serif;
+	font: normal 500 16px/177% 'Inter', sans-serif;
 	letter-spacing: 0;
 }
 
@@ -115,10 +115,10 @@ header div, .portfolio, footer {
 }
 
 body {
-	background-color: #14171A;
+	background-color: hsl(210, 13%, 9%);
 	color: var(--textKeyColor);
-	font: normal 400 18px/177% 'Inter', sans-serif;
-	letter-spacing: 0.02em;
+	font: normal 400 16px/177% 'Inter', sans-serif;
+	letter-spacing: 0.6px;
 	margin: 0;
 	padding: 0;
 }
@@ -154,7 +154,7 @@ nav {
 }
 
 nav a {
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 100%;
 	font-weight: 300;
 	letter-spacing: 0.8px;
