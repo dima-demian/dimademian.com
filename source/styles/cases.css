@@ -136,8 +136,7 @@ p, .case h1, .case h2, .case h3 {
 
 .sparkus-logo {
     width: 100%;
-    max-width: 880px;
-    padding-inline: 5vw;
+    max-width: 860px;
     mix-blend-mode: screen;
 }
 
@@ -149,16 +148,6 @@ p, .case h1, .case h2, .case h3 {
     stop-color: #fff;
 }
 
-.sparkus-banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 56px;
-    text-align: center;
-    mix-blend-mode: screen;
-    justify-content: center;
-}
-
 .sparkus {
     background-image:
         url(/source/images/sparkus/element.png),
@@ -167,7 +156,6 @@ p, .case h1, .case h2, .case h3 {
     background-size: 100% 64px, auto 100%;
     background-repeat: no-repeat, no-repeat;
     max-width: 100%;
-    height: 540px;
     position: relative;
 }
 
@@ -182,6 +170,17 @@ p, .case h1, .case h2, .case h3 {
     mix-blend-mode: color;
     animation: colorChange 8s infinite;
 } 
+
+.sparkus-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    text-align: center;
+    mix-blend-mode: screen;
+    justify-content: center;
+    height: 440px;
+}
 
 .story-block {
     display: flex;
