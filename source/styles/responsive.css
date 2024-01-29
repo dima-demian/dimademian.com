@@ -163,10 +163,6 @@
 		gap: 56px;
 	}
 
-	.sparkus h1 {
-		font-size: calc(164 / 910 * 100vw) !important;
-	}
-
 	.schemes {
 		margin-bottom: 64px;
 	}
