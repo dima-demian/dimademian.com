@@ -113,10 +113,6 @@
 }
 
 @media (max-width: 1036px) {
-	.modular-schema {
-		width: 85%;
-	}
-
 	.egl3p3 {
 		width: 80%;
 	}
@@ -169,6 +165,10 @@
 
 	.schemes {
 		margin-bottom: 64px;
+	}
+
+	.yellow-modular {
+		padding-block: 48px;
 	}
 }
 
@@ -366,6 +366,10 @@
 
 	.project p {
 		margin-bottom: 8px;
+	}
+
+	.yellow-modular {
+		padding-block: 40px;
 	}
 
 }

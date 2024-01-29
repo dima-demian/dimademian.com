@@ -189,6 +189,12 @@ p, .case h1, .case h2, .case h3 {
     gap: 88px;
 }
 
+.yellow-modular {
+    background-color: hsl(46 94% 50%);
+    padding: 88px 32px;
+    border-radius: 16px;
+}
+
 @keyframes colorChange {
     0% {
         background-color: rgba(0, 120, 255, 0.3);
@@ -260,7 +266,7 @@ p, .case h1, .case h2, .case h3 {
 
 .modular-schema {
     width: 100%;
-    max-width: 800px;
+    max-width: 880px;
     margin: auto;
 }
 
