@@ -110,6 +110,10 @@
 		width: calc(var(--Res1200) * 1187);
 		height: auto;
 	}
+
+	.promo-mat img {
+		border-radius: calc(16 / 1200 * 100vw);
+	}
 }
 
 @media (max-width: 1036px) {

@@ -284,6 +284,13 @@ p, .case h1, .case h2, .case h3 {
     max-width: 520px;
 }
 
+.promo-mat img {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 16px;
+}
+
 /* Harmonize snippets */
 
 .h-logo {
