@@ -2,7 +2,7 @@
 	display: grid;
 	gap: 80px var(--keyGap);
 	grid-template-columns: repeat(2, 1fr);
-	margin-top: 56px;
+	margin-block: 56px;
 }
 
 .project {
