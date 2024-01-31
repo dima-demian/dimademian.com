@@ -225,7 +225,7 @@ p, .case h1, .case h2, .case h3 {
 .sparkus-wrapper {
     display: grid;
     gap: 160px;
-    text-wrap: pretty;
+    text-wrap: balance;
 }
 
 .lighter_image {
