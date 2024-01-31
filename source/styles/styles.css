@@ -140,7 +140,7 @@ header div {
 }
 
 #demian:hover path {
-	stroke: #1f83f4;
+	stroke: hsl(212 91% 54%);
 }
 
 
