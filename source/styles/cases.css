@@ -213,7 +213,7 @@ p, .case h1, .case h2, .case h3 {
 
 .beacon-light, .inset-light, .elevated-light {
     grid-column: auto / span 2;
-    min-width: 440px;
+    max-width: 440px;
 }
 
 .beacon-light img {

@@ -124,6 +124,16 @@
 	.promo-mat img {
 		border-radius: calc(16 / 1200 * 100vw);
 	}
+
+	.sparkus-banner img {
+		width: calc(1000 / 1248 * 100vw);
+	}
+}
+
+@media (max-width: 1050px) {
+	.sparkus-banner svg {
+		width: calc(800 / 1050 * 100vw);
+	}
 }
 
 @media (max-width: 1036px) {
@@ -268,7 +278,7 @@
 	}
 
 	.card {
-		padding: 32px;
+		padding: 40px;
 		border-radius: 24px;
 	}
 
@@ -285,9 +295,8 @@
 	}
 
 	.sparkus-banner {
-		gap: 32px;
-		height: auto;
-		padding: 80px 0;
+		gap: 48px;
+		padding-top: 80px;
 	}
 }
 
@@ -308,11 +317,6 @@
 
 	.org-history {
 		gap: 24px;
-	}
-
-	.sparkus-banner {
-		gap: 32px;
-		padding: 64px 0;
 	}
 }
 
@@ -383,11 +387,6 @@
 	.project p {
 		margin-bottom: 8px;
 	}
-
-	.yellow-modular {
-		padding-block: 40px;
-	}
-
 }
 
 
