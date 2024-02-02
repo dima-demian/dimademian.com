@@ -35,8 +35,9 @@ h1, h2, h3, h4, h5, ul, li, p {
 
 img {
 	vertical-align: middle;
-	max-width: 100%;
+	width: 100%;
 	height: auto;
+	border-width: 0;
 }
 
 /* Test mode */
@@ -48,10 +49,6 @@ img {
 a {
 	color: var(--linkColour);
 	text-decoration: none;
-}
-
-img {
-	border-width: 0;
 }
 
 .text-centered {
@@ -118,7 +115,7 @@ body {
 	background-color: hsl(210, 13%, 9%);
 	color: var(--textKeyColor);
 	font: normal 400 16px/177% 'Inter', sans-serif;
-	letter-spacing: 0.6px;
+	letter-spacing: 0.3px;
 	margin: 0;
 	padding: 0;
 }
