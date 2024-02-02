@@ -216,6 +216,18 @@ p, .case h1, .case h2, .case h3 {
     min-width: 440px;
 }
 
+.beacon-light img {
+    max-width: 240px;
+}
+
+.inset-light img, .elevated-light img {
+    max-width: 480px;
+}
+
+.modular-system img {
+    max-width: 580px;
+}
+
 .light-schemes, .modular-system, .promo-mat {
     grid-column: auto / span 3;
 }
@@ -226,17 +238,8 @@ p, .case h1, .case h2, .case h3 {
     align-self: center;
 }
 
-.item img {
-    width: 100%;
-    max-width: 580px;
-}
-
 .zoom {
     cursor: zoom-in;
-}
-
-.item img.beacon {
-    max-height: 560px;
 }
 
 .item img.modular-schema {
@@ -275,6 +278,7 @@ p, .case h1, .case h2, .case h3 {
     flex-grow: 1;
     align-items: center;
     justify-content: center;
+    align-content: center;
 }
 
 .schema-block {
