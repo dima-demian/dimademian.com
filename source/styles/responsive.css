@@ -224,10 +224,6 @@
 		width: calc(390 / 860 * 100vw);
 	}
 
-	.beacon-light {
-		width: 70%;
-	}
-
 	.schemes {
 		gap: 64px;
 	}
