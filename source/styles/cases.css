@@ -142,7 +142,7 @@ p, .case h1, .case h2, .case h3 {
     display: flex;
     flex-direction: column;
     gap: 64px;
-    background-color: hsl(0, 0%, 97%);
+    background-color: hsl(0, 0%, 96%);
     padding: 112px 24px 0;
     color: hsl(210 13% 9%);
     text-align: center;
