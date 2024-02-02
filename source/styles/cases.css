@@ -127,8 +127,6 @@ p, .case h1, .case h2, .case h3 {
 
 .black-copy p {
     font-weight: 500;
-    font-variation-settings: 'wght' 440;
-    letter-spacing: 0.2px;
 }
 
 .upper-case {
@@ -144,7 +142,6 @@ p, .case h1, .case h2, .case h3 {
     gap: 64px;
     background-color: hsl(0, 0%, 96%);
     padding: 112px 24px 0;
-    color: hsl(210 13% 9%);
     text-align: center;
     align-items: center;
 }
@@ -166,8 +163,9 @@ p, .case h1, .case h2, .case h3 {
 }
 
 .sparkus-banner p {
-    max-width: 60ch;
+    max-width: 72ch;
     font-weight: 500;
+    color: hsl(210 13% 30%);
 }
 
 .sparkus-banner img {
@@ -181,6 +179,10 @@ p, .case h1, .case h2, .case h3 {
     grid-template-columns: repeat(6, 1fr);
     gap: 16px;
     padding-bottom: 120px;
+}
+
+.matrix p {
+    color: hsl(210 5% 32%);
 }
 
 .section-row {
@@ -207,7 +209,7 @@ p, .case h1, .case h2, .case h3 {
 }
 
 .item p {
-    max-width: 56ch;
+    max-width: 48ch;
 }
 
 .beacon-light, .inset-light, .elevated-light {
@@ -258,14 +260,6 @@ p, .case h1, .case h2, .case h3 {
 
 .light-details a {
     color: hsl(33 100% 50%);
-
-}
-
-.light-details a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
-    text-decoration-color: hsla(33 100% 50% / .5);
 }
 
 .schema-layout {
