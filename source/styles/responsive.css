@@ -31,6 +31,16 @@
 	}
 }
 
+@media (max-width: 1382px) {
+	.elevated-light, .light-schemes, .modular-system, .promo-mat {
+		grid-column: auto / span 6;
+	}
+
+	.beacon-light-new, .inset-light {
+		grid-column: auto / span 3;
+	}
+
+}
 
 @media (max-width: 1248px) {
 	
@@ -133,6 +143,12 @@
 @media (max-width: 1024px) {
 	.black-copy p {
 		max-width: 56ch;
+	}
+}
+
+@media (max-width: 980px) {
+	.beacon-light-new, .inset-light {
+		grid-column: auto / span 6;
 	}
 }
 

@@ -349,7 +349,7 @@ p, .case h1, .case h2, .case h3 {
     min-width: 440px;
 }
 
-.half, .light-schemes, .modular-system {
+.light-schemes, .modular-system, .promo-mat {
     grid-column: auto / span 3;
 }
 
