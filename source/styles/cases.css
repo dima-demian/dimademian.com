@@ -137,153 +137,8 @@ p, .case h1, .case h2, .case h3 {
 
 /* Sparkus */
 
-.sparkus-logo {
-    width: 100%;
-    max-width: 760px;
-    mix-blend-mode: screen;
-}
-
-.stop-grey {
-    stop-color: #333;
-}
-
-.stop-white {
-    stop-color: #fff;
-}
-
-.sparkus {
-    background-image:
-        url(/source/images/sparkus/element.png),
-        url(/source/images/sparkus/vlight.webp);
-    background-position: bottom, center;
-    background-size: 100% 64px, auto 100%;
-    background-repeat: no-repeat, no-repeat;
-    max-width: 100%;
-    position: relative;
-}
-
-.sparkus::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 120, 255, 0.44);
-    mix-blend-mode: color;
-    animation: colorChange 8s infinite;
-} 
 
 .sparkus-banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
-    text-align: center;
-    mix-blend-mode: screen;
-    justify-content: center;
-    height: 440px;
-}
-
-.story-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 88px;
-}
-
-.yellow-modular {
-    background-color: hsl(46 94% 50%);
-    padding: 88px 32px;
-    border-radius: 16px;
-}
-
-@keyframes colorChange {
-    0% {
-        background-color: rgba(0, 120, 255, 0.3);
-    }
-    25% {
-        background-color: rgba(255, 50, 50, 0.5);
-    }
-    50% {
-        background-color: rgba(102, 255, 102, 0.5);
-    }
-    75% {
-        background-color: rgba(255, 255, 255, 0.2);
-    }
-    100% {
-        background-color: rgba(0, 120, 255, 0.3);
-    }
-}
-
-.sparkus p {
-    text-wrap: pretty;
-    max-width: 624px;
-}
-
-.sparkus .description {
-    align-items: center;
-}
-
-.sparkus-wrapper {
-    display: grid;
-    gap: 160px;
-    text-wrap: balance;
-}
-
-.lighter_image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 24px;
-}
-
-.lighter_image img {
-    max-width: 240px;
-}
-
-.egl3p3 {
-    width: 100%;
-    max-width: 888px;
-    margin: 0 auto;
-}
-
-.schemes {
-    display: flex;
-    gap: 88px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.schema-item {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    text-align: center;
-}
-
-.schema-item img {
-    width: 100%;
-    max-width: 320px;
-}
-
-.gile, .igl, .beacon-light {
-    width: 100%;
-    max-width: 1008px;
-    margin: auto;
-}
-
-.igl {
-    max-width: 900px;
-}
-
-.beacon-light {
-    max-width: 520px;
-}
-
-/* Sparkus new code */
-
-.sparkus-banner-new {
     display: flex;
     flex-direction: column;
     gap: 64px;
@@ -294,16 +149,28 @@ p, .case h1, .case h2, .case h3 {
     align-items: center;
 }
 
-.sparkus-banner-new svg {
+.sparkus-banner svg {
     max-width: 800px;
 }
 
-.sparkus-banner-new p {
+.stop-top-grey {
+    stop-color: #444;
+}
+
+.stop-black {
+    stop-color: #000;
+}
+
+.stop-bottom-grey {
+    stop-color: #666;
+}
+
+.sparkus-banner p {
     max-width: 60ch;
     font-weight: 500;
 }
 
-.sparkus-banner-new img {
+.sparkus-banner img {
     width: 100%;
     max-width: 1000px;
 }
@@ -344,7 +211,7 @@ p, .case h1, .case h2, .case h3 {
     max-width: 56ch;
 }
 
-.beacon-light-new, .inset-light, .elevated-light {
+.beacon-light, .inset-light, .elevated-light {
     grid-column: auto / span 2;
     min-width: 440px;
 }
