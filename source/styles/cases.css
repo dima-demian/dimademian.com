@@ -272,7 +272,7 @@ p, .case h1, .case h2, .case h3 {
     display: flex;
     flex-wrap: wrap;
     column-gap: 64px;
-    row-gap: 24px;
+    row-gap: 40px;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
