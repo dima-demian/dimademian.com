@@ -299,7 +299,7 @@ p, .case h1, .case h2, .case h3 {
 .promo-mat img {
     width: 100%;
     height: auto;
-    aspect-ratio: 1.5;
+    aspect-ratio: 1.77;
     object-fit: cover;
     border-radius: 12px;
 }
