@@ -151,7 +151,7 @@ p, .case h1, .case h2, .case h3 {
 }
 
 .stop-top-grey {
-    stop-color: #444;
+    stop-color: #4a4a4a;
 }
 
 .stop-black {
@@ -159,11 +159,11 @@ p, .case h1, .case h2, .case h3 {
 }
 
 .stop-bottom-grey {
-    stop-color: #666;
+    stop-color: #5a5a5a;
 }
 
 .sparkus-banner p {
-    max-width: 72ch;
+    max-width: 70ch;
     font-weight: 500;
     color: hsl(210 13% 30%);
 }
