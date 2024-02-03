@@ -250,6 +250,7 @@ p, .case h1, .case h2, .case h3 {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    align-items: center;
 }
 
 .light-details h3 {
@@ -260,6 +261,17 @@ p, .case h1, .case h2, .case h3 {
 
 .light-details a {
     color: hsl(33 100% 50%);
+    width: fit-content;
+    border: 1px solid hsl(33 100% 50% / 0);
+    border-radius: 16px;
+    padding-inline: 16px;
+
+    transition: all .15s linear;
+
+}
+
+.light-details a:hover {
+    border: 1px solid hsl(33 100% 50% / .6);
 }
 
 .schema-layout {
