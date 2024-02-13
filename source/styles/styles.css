@@ -129,16 +129,24 @@ header div {
 #demian {
 	height: 36px;
 	width: auto;
-	fill:none;
-	stroke-linecap:round;
-	stroke-linejoin:round;
-	stroke-width:5.5px;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 5.5px;
+	transition: all .5s ease-in-out;
+}
+
+.damien-color-1 {
+	stop-color: #F7FCFF;
+}
+
+.damien-color-2 {
+	stop-color: #8EA1AD;
 }
 
 #demian:hover path {
-	stroke: hsl(212 91% 54%);
+	stroke: #2383f0;
 }
-
 
 /* Menu */
 
