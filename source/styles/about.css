@@ -22,13 +22,15 @@ section {}
 	font-size: 96px;
 	line-height: 100%;
 	grid-column: 1 / 2;
+	letter-spacing: 0.05rem;
 }
 
 .text-block {
 	display: flex;
 	flex-direction: column;
 	row-gap: 32px;
-	text-wrap: balance;
+	text-wrap: pretty;
+	max-width: 66ch;
 }
 
 .about-content img {
