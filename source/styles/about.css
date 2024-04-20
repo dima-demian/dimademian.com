@@ -66,8 +66,8 @@ section {}
 
 .company {
 	display: flex;
-	flex-direction: column;
-	gap: 16px;
+	gap: 40px;
+	flex-direction: row-reverse;
 }
 
 .company .name-and-location, .position {
@@ -80,6 +80,26 @@ section {}
 .company .description {
 	max-width: 80ch;
 }
+
+.company-details {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	flex-grow: 1;
+}
+
+/* Employee logos */
+
+.eliza-logo {width: fit-content; height: 36px;}
+.harmonize-logo {width: fit-content; height: 24px;}
+.turisto-logo {width: fit-content; height: 28px;}
+.tmg-logo {width: fit-content; height: 56px;}
+.mod-logo {width: fit-content; height: 40px;}
+.havas-logo {width: fit-content; height: 28px;}
+.sales-machine-logo {width: fit-content; height: 64px;}
+
+
+
 
 .position b {
 	font-style: normal;
@@ -134,7 +154,7 @@ section {}
 }
 
 .expertise h3 {
-	color: #41C0FF;
+	color: var(--expertise);
 	font-size: 32px;
 	font-weight: 550;
 	letter-spacing: 0.04rem;
@@ -143,6 +163,41 @@ section {}
 .expertise .icon {
 	width: 40px;
 	height: 40px;
+}
+
+.alma-mater-list {
+	display: flex;
+	gap: 24px;
+}
+
+.alma-mater-list .card {
+	width: 100%;
+	min-width: 240px;
+	padding: 36px 40px;
+	justify-content: space-between;
+	gap: 64px;
+}
+
+.alma-mater {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	flex: 1;
+}
+
+.alma-mater .name-and-location {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.role-and-year b {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+	color: var(--expertise);
+	margin-top: 8px;
+	display: block;
 }
 
 /* Tools */

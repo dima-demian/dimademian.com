@@ -134,6 +134,10 @@
 	.sparkus-banner svg {
 		width: calc(800 / 1050 * 100vw);
 	}
+
+	.alma-mater-list {
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 1036px) {
@@ -246,6 +250,10 @@
 
 	.lighter_image img {
 		width: calc(240 / 680 * 100vw);
+	}
+
+	.company {
+		flex-direction: column;
 	}
 }
 
