@@ -121,14 +121,28 @@ section {}
 
 .expertise ul {
 	list-style-type: none;
-	display: grid;
-	grid-template-columns: auto auto;
-	gap: 64px 48px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 112px 80px;
 
 }
 
 .expertise ul li {
-	row-gap: 16px;
+	row-gap: 20px;
+	flex: 1;
+	min-width: 32ch;
+}
+
+.expertise h3 {
+	color: #41C0FF;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 0.04rem;
+}
+
+.expertise .icon {
+	width: 40px;
+	height: 40px;
 }
 
 /* Tools */
