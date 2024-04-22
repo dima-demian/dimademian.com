@@ -66,7 +66,7 @@ section {}
 
 .company {
 	display: flex;
-	gap: 40px;
+	gap: 56px;
 	flex-direction: row-reverse;
 }
 
@@ -90,13 +90,13 @@ section {}
 
 /* Employee logos */
 
-.eliza-logo {width: fit-content; height: 36px;}
-.harmonize-logo {width: fit-content; height: 24px;}
-.turisto-logo {width: fit-content; height: 28px;}
-.tmg-logo {width: fit-content; height: 56px;}
-.mod-logo {width: fit-content; height: 40px;}
-.havas-logo {width: fit-content; height: 28px;}
-.sales-machine-logo {width: fit-content; height: 64px;}
+.eliza-logo {width: min-content; height: 36px;}
+.harmonize-logo {width: min-content; height: 24px;}
+.turisto-logo {width: auto; height: 28px;}
+.tmg-logo {width: min-content; height: 56px;}
+.mod-logo {width: min-content; height: 40px;}
+.havas-logo {width: min-content; height: 28px;}
+.sales-machine-logo {width: min-content; height: 64px;}
 
 
 
