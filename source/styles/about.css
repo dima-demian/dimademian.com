@@ -99,6 +99,23 @@ section {}
 .sales-machine-logo {width: min-content; height: 64px;}
 
 
+/* Software logos */
+
+.softwares {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 28px;
+	margin-bottom: 48px;
+}
+
+.softwares img {
+	height: 26px;
+	width: min-content;
+}
+
+img.axure {
+	height: 20px;
+}
 
 
 .position b {
