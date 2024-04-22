@@ -92,7 +92,7 @@ section {}
 
 .eliza-logo {width: min-content; height: 36px;}
 .harmonize-logo {width: min-content; height: 24px;}
-.turisto-logo-about {width: auto; height: 28px;}
+.turisto-logo-about {width: min-content; height: 28px;}
 .tmg-logo {width: min-content; height: 56px;}
 .mod-logo {width: min-content; height: 40px;}
 .havas-logo {width: min-content; height: 28px;}
