@@ -289,6 +289,10 @@
 		padding: 40px;
 		border-radius: 24px;
 	}
+	
+	.alma-mater-list .card {
+		padding: 32px 36px;
+	}
 
 	.org-history {
 		gap: 32px;
@@ -321,6 +325,10 @@
 	.card {
 		padding: 24px;
 		border-radius: 24px;
+	}
+
+	.alma-mater-list .card {
+		padding: 20px 24px;
 	}
 
 	.org-history {
