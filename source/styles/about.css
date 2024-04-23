@@ -136,7 +136,7 @@ img.axure {
 	gap: 10px;
 }
 
-.responsibility ul li {
+.responsibility ul li, .tools ul li {
 	font-size: 16px;
 	line-height: 120%;
 	padding: 10px 16px;
@@ -226,14 +226,14 @@ img.axure {
 	gap: 12px;
 }
 
-.tools ul li {
+/* .tools ul li {
 	font-size: 16px;
 	line-height: 120%;
 	color: #000;
 	padding: 6px 16px;
 	background: linear-gradient(180deg, #CCDAE3 0%, #91A1AD 100%);
 	border-radius: 20px;
-}
+} */
 
 .cv-button {
 	display: flex;
