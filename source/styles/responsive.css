@@ -163,6 +163,9 @@
 	.beacon-light, .inset-light {
 		grid-column: auto / span 6;
 	}
+	.about-content {
+		flex-wrap: wrap;
+	}
 }
 
 @media (max-width: 910px) {
