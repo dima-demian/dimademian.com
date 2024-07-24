@@ -36,6 +36,7 @@ section {}
 	max-width: 420px;
 	height: fit-content;
 	border-radius: 50%;
+	aspect-ratio: 1;
 }
 
 .org-history {
